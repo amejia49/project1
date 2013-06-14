@@ -1,6 +1,13 @@
-<% provide(:title, 'Home') %>
+<% provide(:title, 'For Consumers') %>
 
-    <h1>For Consumers</h1>
-    <p>
-      Munchie Runner
-    </p>
+<div class="center hero-unit">
+  <h1>Welcome to Munchie Runners</h1>
+
+  <h2>
+    Munchie Runners is a delivery service that brings your foods to your front door!
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
