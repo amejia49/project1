@@ -1,0 +1,2 @@
+class UsersnewController < ApplicationController
+end
